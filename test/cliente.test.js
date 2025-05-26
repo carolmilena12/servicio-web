@@ -1,5 +1,5 @@
 const request= require('supertest')
-const app = require('./app')
+const app = require('../app')
 
 describe ('Test Api producos', ()=>{
     it('GET /api/productos => debe devolver la lista de productos', async ()=>{
